@@ -5,7 +5,7 @@ import time
 with open('lfi-files.txt', 'r') as fd:
     path_list = list(fd)
 
-base_path = "172.16.1.10-"+str(time.time())
+base_path = "10.10.10.10-"+str(time.time())
 os.makedirs(base_path)
 
 for path in path_list:
