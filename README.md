@@ -1,9 +1,9 @@
 # LFIoader
 
-Enumerates readable file via Local File Inclusion and mimics the directory structure of the system beeing read. 
+Enumerates readable files via Local File Inclusion and mimics the directory structure of the system beeing read. 
 
 ```bash
-root@kali:/tmp# proxychains -q python lfi-check.py
+root@kali:/tmp# (proxychains -q) python LFIoader.py
 [Succcess][/boot/grub/grub.cfg]
 [Succcess][/etc/adduser.conf]
 [Succcess][/etc/apache2/apache2.conf]
