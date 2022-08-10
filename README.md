@@ -13,6 +13,8 @@ root@kali:/tmp# proxychains -q python lfi-check.py
 [Succcess][/etc/apache2/mods-available/dir.conf]
 [...]
 
+
+```bash
 root@kali:/tmp/10.10.10.10-1660157015.3783913# tree
 .
 ├── boot
