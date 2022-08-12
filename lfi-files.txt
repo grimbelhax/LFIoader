@@ -1283,6 +1283,7 @@ php://input
 /wamp/logs/mysql.log
 /wamp/logs/slowquery.log
 /web.config
+web.config
 /web/conf/php.ini
 /WINDOWS/php.ini
 /WINDOWS\php.ini
@@ -1315,8 +1316,10 @@ php://input
 /WINNT/system32/logfiles/W3SVC3/inetsvn1.log
 /WINNT/system32/logfiles/W3SVC/inetsvn1.log
 /wp-admin.php
+wp-admin.php
 /wp-content/plugins
 /wp-login.php
+wp-login.php
 /www/apache/conf/httpd.conf
 /www/conf/httpd.conf
 /www/logs/freebsddiary-access_log
